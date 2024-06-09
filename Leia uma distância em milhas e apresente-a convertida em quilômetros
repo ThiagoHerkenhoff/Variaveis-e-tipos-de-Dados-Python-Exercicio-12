@@ -1,0 +1,6 @@
+# 12 - Leia uma distância em milhas e apresente-a convertida em quilômetros. a formula de conversão é: K = 1,61 * M,
+# Sendo K a distância em quilômetros e M em milhas.
+
+m = float(input('Informe a distância em milhas: '))
+k = 1.61 * m
+print(f'A distância em quilômetros é {k}')
